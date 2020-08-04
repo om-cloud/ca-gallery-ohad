@@ -46,9 +46,7 @@ function renderProjectModal(counter, projectId) {
    <li>Date Created: ${dateStr}</li>
    <li>Languages: ${finalLabelsStr}</li>
  </ul>
- <p>${project.extraContent[0]}</p>
- <p>${project.extraContent[1]}</p>
- <p>${project.extraContent[2]}</p>
+
  <button class="btn btn-success"  type="button" 
  onclick="window.open('${project.projectUrl}', '_blank'); return false;">
    <i class="fa fa-external-link" aria-hidden="true"></i>
@@ -60,6 +58,10 @@ function renderProjectModal(counter, projectId) {
  `
 $('.modal-body').html(strHtml)
 }
+
+/* <p>${project.extraContent[0]}</p>
+<p>${project.extraContent[1]}</p>
+<p>${project.extraContent[2]}</p> */
 
 // function onOpenProjectLink(event){
 //     $(document).ready(()=> {
