@@ -31,9 +31,13 @@ function _createProjects() {
         'https://my-movies-1f9a9.firebaseapp.com/',1589955424567, 'img/portfolio/06-full.jpg',
         'img/portfolio/06-thumbnail.jpg',["TypeScript", "CSS", "HTML, Angular, Firebase"])
 
-        , _createProject('Calculator', 'Accurate Copy Of Calculator', 
+        , _createProject('Calculator', 'Pixel Perfect Existing Calculator', 
         'https://calculator-88959.firebaseapp.com/',1589953424367, 'img/portfolio/07-full.jpg',
         'img/portfolio/07-thumbnail.jpg',["TypeScript", "CSS", "HTML, Angular, Firebase"])
+
+        , _createProject('Meme Generator', 'Pixel Perfect Meme Generator', 
+        'https://om-cloud.github.io/meme-generator/',1589953489767, 'img/portfolio/08-full.jpg',
+        'img/portfolio/08-thumbnail.jpg',["JavaScript", "CSS", "HTML"])
     ]
 }
 
